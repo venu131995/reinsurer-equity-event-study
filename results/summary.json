@@ -1,0 +1,373 @@
+{
+ "period": [
+  "2004-09-07",
+  "2026-10-13"
+ ],
+ "days": 5390,
+ "performance_since_2005": {
+  "SREN.SW": {
+   "start": "2004-09-07T00:00:00.000",
+   "TSR_total_%": 876.3822405226,
+   "TSR_annual_%": 11.2417832189,
+   "vol_%": 30.3096431875,
+   "return/vol": 0.3514916786,
+   "max_drawdown_%": -85.8312730994,
+   "max_dd_date": "2009-03-09T00:00:00.000"
+  },
+  "MUV2.DE": {
+   "start": "2004-09-07T00:00:00.000",
+   "TSR_total_%": 2244.7407904212,
+   "TSR_annual_%": 15.8927803629,
+   "vol_%": 24.3807603143,
+   "return/vol": 0.604965836,
+   "max_drawdown_%": -48.4253385804,
+   "max_dd_date": "2020-03-18T00:00:00.000"
+  },
+  "HNR1.DE": {
+   "start": "2004-09-07T00:00:00.000",
+   "TSR_total_%": 2578.8291908064,
+   "TSR_annual_%": 16.6167854785,
+   "vol_%": 27.5929773014,
+   "return/vol": 0.5571092734,
+   "max_drawdown_%": -49.3009951649,
+   "max_dd_date": "2008-10-24T00:00:00.000"
+  },
+  "SCR.PA": {
+   "start": "2004-09-07T00:00:00.000",
+   "TSR_total_%": 842.7674917784,
+   "TSR_annual_%": 11.0597211355,
+   "vol_%": 31.5529323665,
+   "return/vol": 0.3324505554,
+   "max_drawdown_%": -60.422794453,
+   "max_dd_date": "2020-03-17T00:00:00.000"
+  },
+  "^STOXX": {
+   "start": "2004-09-07T00:00:00.000",
+   "TSR_total_%": 151.8802812468,
+   "TSR_annual_%": 4.4136144887,
+   "vol_%": 17.6771002176,
+   "return/vol": 0.2443267697,
+   "max_drawdown_%": -62.8024949012,
+   "max_dd_date": "2009-03-09T00:00:00.000"
+  }
+ },
+ "performance_since_2016": {
+  "SREN.SW": {
+   "start": "2016-01-05T00:00:00.000",
+   "TSR_total_%": 222.5739527885,
+   "TSR_annual_%": 11.8565892832,
+   "vol_%": 23.0776481337,
+   "return/vol": 0.4855235306,
+   "max_drawdown_%": -52.9872631955,
+   "max_dd_date": "2020-03-18T00:00:00.000"
+  },
+  "MUV2.DE": {
+   "start": "2016-01-05T00:00:00.000",
+   "TSR_total_%": 341.6764888591,
+   "TSR_annual_%": 15.2705605455,
+   "vol_%": 24.0953326485,
+   "return/vol": 0.5897900709,
+   "max_drawdown_%": -48.4253385804,
+   "max_dd_date": "2020-03-18T00:00:00.000"
+  },
+  "HNR1.DE": {
+   "start": "2016-01-05T00:00:00.000",
+   "TSR_total_%": 276.0163493679,
+   "TSR_annual_%": 13.5092274004,
+   "vol_%": 23.5463950748,
+   "return/vol": 0.5381458432,
+   "max_drawdown_%": -44.1268066028,
+   "max_dd_date": "2020-03-16T00:00:00.000"
+  },
+  "SCR.PA": {
+   "start": "2016-01-05T00:00:00.000",
+   "TSR_total_%": 82.7096857508,
+   "TSR_annual_%": 5.9359213776,
+   "vol_%": 33.5721683313,
+   "return/vol": 0.1717619471,
+   "max_drawdown_%": -60.422794453,
+   "max_dd_date": "2020-03-17T00:00:00.000"
+  },
+  "^STOXX": {
+   "start": "2016-01-05T00:00:00.000",
+   "TSR_total_%": 85.317163057,
+   "TSR_annual_%": 6.079635926,
+   "vol_%": 15.6650934438,
+   "return/vol": 0.3767606531,
+   "max_drawdown_%": -35.5473593925,
+   "max_dd_date": "2020-03-18T00:00:00.000"
+  },
+  "EXH5.DE": {
+   "start": "2016-01-05T00:00:00.000",
+   "TSR_total_%": 200.9519435148,
+   "TSR_annual_%": 11.1343711339,
+   "vol_%": 20.1375567718,
+   "return/vol": 0.5242435075,
+   "max_drawdown_%": -46.5529978328,
+   "max_dd_date": "2020-03-18T00:00:00.000"
+  }
+ },
+ "swiss_re_drawdowns": [
+  {
+   "peak": "2007-06-04",
+   "trough": "2009-03-09",
+   "depth_%": -85.83127309939233,
+   "recovered": "2013-03-20"
+  },
+  {
+   "peak": "2020-02-19",
+   "trough": "2020-03-18",
+   "depth_%": -52.98726319549966,
+   "recovered": "2023-01-06"
+  },
+  {
+   "peak": "2005-12-05",
+   "trough": "2006-06-13",
+   "depth_%": -20.291985008926737,
+   "recovered": "2006-10-19"
+  }
+ ],
+ "drivers": {
+  "Swiss Re": {
+   "beta_market": 1.0656719838304565,
+   "se_market": 0.04539878827967839,
+   "beta_rate_per_100bp_%": 1.7118896025998092,
+   "se_rate_%": 0.6585594295768229,
+   "R2": 0.3960323748928638
+  },
+  "Munich Re": {
+   "beta_market": 0.9489952489602037,
+   "se_market": 0.03419315162090824,
+   "beta_rate_per_100bp_%": 1.1088172131720448,
+   "se_rate_%": 0.475785216826373,
+   "R2": 0.48178538483312916
+  },
+  "Hannover Re": {
+   "beta_market": 0.9618191156921326,
+   "se_market": 0.03343524792142091,
+   "beta_rate_per_100bp_%": 1.9252421757669556,
+   "se_rate_%": 0.6288558527901367,
+   "R2": 0.39199810623142084
+  },
+  "SCOR": {
+   "beta_market": 0.9432153213322231,
+   "se_market": 0.0497584412600543,
+   "beta_rate_per_100bp_%": 2.965895470725861,
+   "se_rate_%": 0.8875853400459622,
+   "R2": 0.2948369314061404
+  }
+ },
+ "swiss_re_attribution_by_year_%": {
+  "2004": {
+   "market": 5.38,
+   "rates": -0.9,
+   "stock-specific": 6.79,
+   "total": 11.27
+  },
+  "2005": {
+   "market": 21.27,
+   "rates": -0.73,
+   "stock-specific": -3.43,
+   "total": 17.11
+  },
+  "2006": {
+   "market": 15.41,
+   "rates": 1.13,
+   "stock-specific": -10.85,
+   "total": 5.69
+  },
+  "2007": {
+   "market": -3.44,
+   "rates": 0.56,
+   "stock-specific": -21.04,
+   "total": -23.92
+  },
+  "2008": {
+   "market": -70.55,
+   "rates": -1.09,
+   "stock-specific": 46.12,
+   "total": -25.52
+  },
+  "2009": {
+   "market": 18.22,
+   "rates": -0.08,
+   "stock-specific": -28.2,
+   "total": -10.06
+  },
+  "2010": {
+   "market": 14.98,
+   "rates": -0.63,
+   "stock-specific": 8.06,
+   "total": 22.42
+  },
+  "2011": {
+   "market": -6.0,
+   "rates": -1.1,
+   "stock-specific": 8.03,
+   "total": 0.92
+  },
+  "2012": {
+   "market": 16.23,
+   "rates": -1.49,
+   "stock-specific": 20.42,
+   "total": 35.15
+  },
+  "2013": {
+   "market": 8.64,
+   "rates": 0.16,
+   "stock-specific": 17.88,
+   "total": 26.68
+  },
+  "2014": {
+   "market": 2.94,
+   "rates": -2.68,
+   "stock-specific": 15.98,
+   "total": 16.24
+  },
+  "2015": {
+   "market": 9.6,
+   "rates": 0.26,
+   "stock-specific": 24.91,
+   "total": 34.78
+  },
+  "2016": {
+   "market": 1.79,
+   "rates": -0.77,
+   "stock-specific": 6.22,
+   "total": 7.25
+  },
+  "2017": {
+   "market": 8.0,
+   "rates": 0.61,
+   "stock-specific": -17.65,
+   "total": -9.04
+  },
+  "2018": {
+   "market": -12.27,
+   "rates": -0.46,
+   "stock-specific": 21.69,
+   "total": 8.96
+  },
+  "2019": {
+   "market": 24.36,
+   "rates": -0.47,
+   "stock-specific": 4.4,
+   "total": 28.29
+  },
+  "2020": {
+   "market": -4.51,
+   "rates": -0.58,
+   "stock-specific": -15.2,
+   "total": -20.29
+  },
+  "2021": {
+   "market": 18.31,
+   "rates": 0.69,
+   "stock-specific": -0.79,
+   "total": 18.2
+  },
+  "2022": {
+   "market": -16.97,
+   "rates": 4.45,
+   "stock-specific": 17.64,
+   "total": 5.12
+  },
+  "2023": {
+   "market": 13.26,
+   "rates": -0.81,
+   "stock-specific": 6.13,
+   "total": 18.59
+  },
+  "2024": {
+   "market": 10.18,
+   "rates": 0.49,
+   "stock-specific": 28.51,
+   "total": 39.17
+  },
+  "2025": {
+   "market": 15.48,
+   "rates": 1.06,
+   "stock-specific": -11.59,
+   "total": 4.95
+  },
+  "2026": {
+   "market": 8.12,
+   "rates": 0.86,
+   "stock-specific": 6.94,
+   "total": 15.92
+  }
+ },
+ "attribution_max_closure_error": 5.551115123125783e-17,
+ "event_car_0_5": {
+  "mean_by_stock_%": {
+   "Hannover Re": -1.029,
+   "Munich Re": -0.695,
+   "SCOR": 0.218,
+   "Swiss Re": -1.162
+  },
+  "share_negative": {
+   "Hannover Re": 0.8,
+   "Munich Re": 0.6,
+   "SCOR": 0.6,
+   "Swiss Re": 0.7333333333333333
+  },
+  "significant_|t|>1.96": 5,
+  "n": 60,
+  "pooled_mean_%": -0.6671348330366931,
+  "pooled_t": -1.8153111026879187
+ },
+ "event_car_m5_5": {
+  "mean_by_stock_%": {
+   "Hannover Re": -1.766,
+   "Munich Re": -1.503,
+   "SCOR": -0.485,
+   "Swiss Re": -1.554
+  },
+  "share_negative": {
+   "Hannover Re": 0.8,
+   "Munich Re": 0.6666666666666666,
+   "SCOR": 0.5333333333333333,
+   "Swiss Re": 0.7333333333333333
+  },
+  "significant_|t|>1.96": 2,
+  "n": 60,
+  "pooled_mean_%": -1.3268866425213521,
+  "pooled_t": -3.2095489297695488
+ },
+ "event_car_0_20": {
+  "mean_by_stock_%": {
+   "Hannover Re": -1.219,
+   "Munich Re": -0.309,
+   "SCOR": -1.063,
+   "Swiss Re": -1.568
+  },
+  "share_negative": {
+   "Hannover Re": 0.6,
+   "Munich Re": 0.6,
+   "SCOR": 0.6,
+   "Swiss Re": 0.6666666666666666
+  },
+  "significant_|t|>1.96": 4,
+  "n": 60,
+  "pooled_mean_%": -1.0397155533860274,
+  "pooled_t": -1.8372692847666638
+ },
+ "placebo_size": {
+  "n": 2000,
+  "reject_rate": 0.056,
+  "mean_car_%": -0.0574825272875789,
+  "sd_car_%": 3.565849583020564
+ },
+ "placebo_power_-3%": {
+  "n": 2000,
+  "reject_rate": 0.2,
+  "mean_car_%": -3.103459751394493,
+  "sd_car_%": 3.5843683029617157
+ },
+ "placebo_power_-5%": {
+  "n": 2000,
+  "reject_rate": 0.4725,
+  "mean_car_%": -5.103513992171832,
+  "sd_car_%": 3.8349101202882636
+ }
+}
